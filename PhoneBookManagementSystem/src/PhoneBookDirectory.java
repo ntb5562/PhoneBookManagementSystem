@@ -55,7 +55,6 @@ public class PhoneBookDirectory {
 	}
 	
 	//sorting phonebook entries by id 
-	//void bc it
 	
 	public void SortbyID() {
 		for (int i = 0; i<array.length; i++) {
@@ -84,8 +83,8 @@ public class PhoneBookDirectory {
 		for (int i =0; i<array.length; i++) {
 			
 			if(array[i]!=null && array[i].getFname().equals(firstName) && array[i].getLname().equals(lastName)) {
-				//assumed we have to ask what attribute user wants to edit and change the attritube based on their input
-				//assumed we are to keep asking until the user doesnt want to change anything
+				//assumed I have to ask what attribute user wants to edit and change the attritube based on their input
+				//assumed I have to keep asking until the user doesnt want to change anything
 				result =1;
 				while(true) {
 					System.out.printf("Enter which attritube you want to change (int): %n1.ID %n2.First Name %n3. Last name %n4.Email %n5.Zip code %n6.Phone number %n7. Nothing");

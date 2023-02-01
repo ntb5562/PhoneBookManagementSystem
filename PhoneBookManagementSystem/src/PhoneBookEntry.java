@@ -89,7 +89,7 @@ public class PhoneBookEntry {
 
 	//constructors
 	public PhoneBookEntry() {
-		//sound sad
+		
 	}
 	
 	public PhoneBookEntry(int id, String f, String l, String e,String z, String n) {
